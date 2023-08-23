@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS, X- und Y- Achse</title>
+    <style>
+      .box1,
+      .box2,
+      .box3,
+      .box4 {
+        width: 300px;
+        height: 160px;
+        margin: 5px;
+        overflow: auto;
+        box-shadow: 0px 0px 6px gray;
+      }
+      img {
+        width: 100px;
+      }
+      /* FLEX */
+
+      main {
+        display: flex; /* Fluss aktivieren */
+        justify-content: space-between; /* X-Achse */
+        align-items: center; /* Y-Achse */
+        flex-wrap: wrap; /* Brechen, wenn nicht genug Platz ist */
+        height: 100vh; /* Höhe von MAIN */
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="box1">
+        <img
+          src="https://i.pinimg.com/originals/4d/df/99/4ddf99eb66b01487a24f6ee6486d56b4.jpg"
+        />
+        <p>
+          AnzeigeGenießen Sie herrliche Strände, kulinarische Köstlichkeiten und
+          tolle Landschaften. Buchen Sie jetzt Ihren Ägypten Pauschalurlaub
+          einfach und sicher bei FTI!.
+        </p>
+      </div>
+      <div class="box2">
+        <img
+          src="https://www.fodors.com/wp-content/uploads/2019/10/egypt-pyramids.jpg"
+        />
+        <p>
+          Assuan Die Geschichte von Assuan reicht über 5500 Jahre in die
+          Vergangenheit, trotzdem erwartet euch dort am östlichen Nilufer eine
+          moderne Stadt voller Leben.
+        </p>
+      </div>
+      <div class="box3">
+        <img
+          src="https://www.hanisauland.de/sites/default/files/styles/article_1180/public/1369744-160320-147854.jpg.jpeg"
+        />
+        <p>
+          Kairo Die Hauptstadt Kairo ist quirlig, lebendig, laut, hektisch aber
+          unglaublich faszinierend. ...
+        </p>
+      </div>
+      <div class="box4">
+        <img
+          src="https://cdn0.scrvt.com/1d269d6df8ffa5293567a253ea58b5c1/930f567dbd894d2f/374f46313ce2/Aegypten_Kairo_Stadtansicht_600x400.jpg"
+        />
+        <p>
+          Web12 Zeilen · 1. Mai 2019 · 1. Kairo. Die Hauptstadt Kairo ist
+          quirlig, lebendig, laut, hektisch aber unglaublich faszinierend. ...
+          Geschätzte Lesezeit: 6 min
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
